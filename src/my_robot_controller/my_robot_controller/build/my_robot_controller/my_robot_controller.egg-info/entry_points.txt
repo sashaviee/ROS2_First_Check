@@ -1,0 +1,11 @@
+[console_scripts]
+battery_node = my_robot_controller.battery_node:main
+encoder_simulator = my_robot_controller.encoder_simulator:main
+imu_reader = my_robot_controller.imu_reader:main
+imu_simulator = my_robot_controller.imu_simulator:main
+lidar_simulator = my_robot_controller.lidar_simulator:main
+motor_simulator = my_robot_controller.motor_simulator:main
+system_monitor = my_robot_controller.system_monitor:main
+temperature_sensor = my_robot_controller.temperature_sensor:main
+tof_simulator = my_robot_controller.tof_simulator:main
+wheel_odometry = my_robot_controller.wheel_odometry:main

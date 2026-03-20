@@ -13,4 +13,6 @@ exam_robot.egg-info/entry_points.txt
 exam_robot.egg-info/requires.txt
 exam_robot.egg-info/top_level.txt
 exam_robot.egg-info/zip-safe
+launch/robot_system.launch.py
 resource/exam_robot
+urdf/exam_robot.urdf

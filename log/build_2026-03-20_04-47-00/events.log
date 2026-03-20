@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000877] (exam_robot) JobQueued: {'identifier': 'exam_robot', 'dependencies': OrderedDict()}
+[0.003156] (exam_robot) JobStarted: {'identifier': 'exam_robot'}
+[0.099105] (-) TimerEvent: {}
+[0.199682] (-) TimerEvent: {}
+[0.300232] (-) TimerEvent: {}
+[0.400709] (-) TimerEvent: {}
+[0.501284] (-) TimerEvent: {}
+[0.602052] (-) TimerEvent: {}
+[0.702594] (-) TimerEvent: {}
+[0.803176] (-) TimerEvent: {}
+[0.903724] (-) TimerEvent: {}
+[1.004255] (-) TimerEvent: {}
+[1.104866] (-) TimerEvent: {}
+[1.205358] (-) TimerEvent: {}
+[1.305837] (-) TimerEvent: {}
+[1.406382] (-) TimerEvent: {}
+[1.506911] (-) TimerEvent: {}
+[1.607437] (-) TimerEvent: {}
+[1.707870] (-) TimerEvent: {}
+[1.808405] (-) TimerEvent: {}
+[1.908903] (-) TimerEvent: {}
+[2.009569] (-) TimerEvent: {}
+[2.110099] (-) TimerEvent: {}
+[2.210639] (-) TimerEvent: {}
+[2.311495] (-) TimerEvent: {}
+[2.412034] (-) TimerEvent: {}
+[2.512663] (-) TimerEvent: {}
+[2.613332] (-) TimerEvent: {}
+[2.646532] (exam_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/student/ros2_ws/build/exam_robot/build', '--no-deps', 'symlink_data'], 'cwd': '/home/student/ros2_ws/build/exam_robot', 'env': {'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '66359aad572f', 'GIT_ASKPASS': '/home/student/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/student/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/bin/helpers/browser.sh', 'HOME': '/home/student', 'OLDPWD': '/home/student/ros2_ws/src/exam_robot/launch', 'TERM_PROGRAM_VERSION': '1.111.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-3db4ac32-ae6c-4f67-9fa6-377b4e84b885.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/student/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/student/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/home/student/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-919231e4-f8f2-43cc-ae07-fee4838c2d86.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/student/.vscode-server/bin/ce099c1ed25d9eb3076c11e4a280f3eb52b4fbeb/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/course_venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X6"]', 'DISPLAY': ':6', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-9ae9bd3a7a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/student/ros2_ws/install/exam_robot:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X6', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/student/ros2_ws/build/exam_robot', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/student/ros2_ws/build/exam_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages:/home/student/ros2_ws/build/exam_robot:/home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.713656] (-) TimerEvent: {}
+[2.814164] (-) TimerEvent: {}
+[2.914754] (-) TimerEvent: {}
+[3.015326] (-) TimerEvent: {}
+[3.115800] (-) TimerEvent: {}
+[3.216293] (-) TimerEvent: {}
+[3.298170] (exam_robot) StdoutLine: {'line': b'running develop\n'}
+[3.316522] (-) TimerEvent: {}
+[3.417042] (-) TimerEvent: {}
+[3.517581] (-) TimerEvent: {}
+[3.618075] (-) TimerEvent: {}
+[3.718641] (-) TimerEvent: {}
+[3.762561] (exam_robot) StdoutLine: {'line': b'running egg_info\n'}
+[3.800337] (exam_robot) StdoutLine: {'line': b'writing exam_robot.egg-info/PKG-INFO\n'}
+[3.802662] (exam_robot) StdoutLine: {'line': b'writing dependency_links to exam_robot.egg-info/dependency_links.txt\n'}
+[3.803319] (exam_robot) StdoutLine: {'line': b'writing entry points to exam_robot.egg-info/entry_points.txt\n'}
+[3.803857] (exam_robot) StdoutLine: {'line': b'writing requirements to exam_robot.egg-info/requires.txt\n'}
+[3.804362] (exam_robot) StdoutLine: {'line': b'writing top-level names to exam_robot.egg-info/top_level.txt\n'}
+[3.818844] (-) TimerEvent: {}
+[3.895592] (exam_robot) StdoutLine: {'line': b"reading manifest file 'exam_robot.egg-info/SOURCES.txt'\n"}
+[3.897573] (exam_robot) StdoutLine: {'line': b"writing manifest file 'exam_robot.egg-info/SOURCES.txt'\n"}
+[3.919056] (-) TimerEvent: {}
+[3.941473] (exam_robot) StdoutLine: {'line': b'running build_ext\n'}
+[3.942101] (exam_robot) StdoutLine: {'line': b'Creating /home/student/ros2_ws/install/exam_robot/lib/python3.12/site-packages/exam-robot.egg-link (link to .)\n'}
+[3.943080] (exam_robot) StdoutLine: {'line': b'Installing battery_node script to /home/student/ros2_ws/install/exam_robot/lib/exam_robot\n'}
+[3.946114] (exam_robot) StdoutLine: {'line': b'Installing distance_sensor script to /home/student/ros2_ws/install/exam_robot/lib/exam_robot\n'}
+[3.946883] (exam_robot) StdoutLine: {'line': b'Installing robot_controller script to /home/student/ros2_ws/install/exam_robot/lib/exam_robot\n'}
+[3.948535] (exam_robot) StdoutLine: {'line': b'Installing status_display script to /home/student/ros2_ws/install/exam_robot/lib/exam_robot\n'}
+[3.949360] (exam_robot) StdoutLine: {'line': b'\n'}
+[3.949697] (exam_robot) StdoutLine: {'line': b'Installed /home/student/ros2_ws/build/exam_robot\n'}
+[3.949835] (exam_robot) StdoutLine: {'line': b'running symlink_data\n'}
+[3.952103] (exam_robot) StdoutLine: {'line': b'symbolically linking /home/student/ros2_ws/build/exam_robot/launch/robot_system.launch.py -> /home/student/ros2_ws/install/exam_robot/share/exam_robot/launch\n'}
+[4.010766] (exam_robot) CommandEnded: {'returncode': 0}
+[4.019522] (-) TimerEvent: {}
+[4.056734] (exam_robot) JobEnded: {'identifier': 'exam_robot', 'rc': 0}
+[4.059873] (-) EventReactorShutdown: {}
